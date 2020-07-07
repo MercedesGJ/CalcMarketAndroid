@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "629924158568",
+    "firebase_url": "https://calcmarket.firebaseio.com",
+    "project_id": "calcmarket",
+    "storage_bucket": "calcmarket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629924158568:android:601634bc3515588bbf6fdd",
+        "android_client_info": {
+          "package_name": "mercedesgj.cma.calcmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629924158568-01p55a0c5mnmacuan6hk081vvnbvn4n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU1vp-tvKAJdMJau2IIA00kMlewlFhJLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629924158568-01p55a0c5mnmacuan6hk081vvnbvn4n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:configChanges="screenSize|orientation">
+
+    <TextView
+        android:id="@+id/txtprecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
+        android:clickable="false"
+        android:enabled="true"
+        android:hint="Precio"
+        android:inputType="none"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHint="@color/design_default_color_error"
+        android:textColorLink="@color/design_default_color_primary" />
+
+    <EditText
+        android:id="@+id/TextoPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/TextoProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número de productos"
+        android:inputType="textPersonName"
+        android:numeric="integer" />
+
+    <EditText
+        android:id="@+id/TextoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre del producto"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/side_nav_bar"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <ImageButton
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/side_nav_bar"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:id="@+id/Table"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:showDividers="middle|beginning|end|none" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

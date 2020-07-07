@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CalcMarket</string>
+    <string name="nav_header_title">CalcMarket</string>
+    <string name="nav_header_subtitle">mgomezinfor@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Opciones</string>
+
+    <string name="menu_home">Lista</string>
+    <string name="menu_gallery">Conversor</string>
+    <string name="menu_slideshow">Iniciar Sesión</string>
+    <string-array name="Monedas">
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>MXN</item>
+    </string-array>
+</resources>
+
+
+

@@ -15,6 +15,11 @@
         <item>JPY</item>
         <item>MXN</item>
     </string-array>
+    <string name="id_app">ca-app-pub-6782170403215647~1721217221</string>
+    <string name="add_banner_id">ca-app-pub-6782170403215647/4827082083</string>
+    <string name="banner_prueba">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+
 </resources>
 
 
